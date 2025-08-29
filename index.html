@@ -81,3 +81,65 @@
         </p>
       </div>
     </section>
+    <!-- 🔹 Main Content -->
+    <main class="bg-[rgba(65,255,107,0.1)]">
+      <div
+        class="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-12 py-16 gap-8"
+      >
+        <!-- left cards -->
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6 md:col-span-9">
+          <!-- ✅ Example card -->
+          <article class="rounded-lg shadow-md bg-white p-8">
+            <!-- top -->
+            <div class="flex justify-between items-center">
+              <div
+                class="rounded-xl bg-[rgba(255,227,226,1)] p-3 flex items-center justify-center"
+              >
+                <img src="./assets/emergency.png" alt="emergency" width="32" />
+              </div>
+              <i class="fa-regular fa-heart text-2xl fav-btn"></i>
+            </div>
+            <!-- text -->
+            <div class="mt-3">
+              <h3 class="font-bold text-xl">National Emergency</h3>
+              <p class="text-gray-500">National Emergency</p>
+              <p class="text-3xl font-bold mt-6 mb-2 number">999</p>
+              <p
+                class="rounded-full bg-gray-300 text-gray-600 px-5 py-1 w-[90px] text-center"
+              >
+                All
+              </p>
+            </div>
+            <!-- buttons -->
+            <div class="flex gap-2 mt-6">
+              <button
+                class="flex-1 border-2 border-gray-500 text-gray-600 rounded-lg px-3 py-2 copy-btn"
+              >
+                <i class="fa-solid fa-copy mr-2"></i>Copy
+              </button>
+              <button
+                class="flex-1 bg-[rgb(0,166,62)] text-white rounded-lg px-3 py-2 call-btn"
+              >
+                <i class="fa-solid fa-phone mr-2"></i>Call
+              </button>
+            </div>
+          </article>
+
+          <!-- 👉 বাকি কার্ডগুলো একই template follow করে বানানো যাবে (title, img, number বদলালে হবে) -->
+        </section>
+
+        <!-- right history -->
+        <aside class="col-span-9 md:col-span-3">
+          <div class="bg-white shadow-md rounded-lg p-5">
+            <!-- top bar -->
+            <div class="flex justify-between items-center mb-4">
+              <h4 class="flex items-center gap-2 font-medium text-lg">
+                <i class="fa-regular fa-clock"></i> History
+              </h4>
+              <button
+                id="clear-history"
+                class="w-[100px] h-[42px] rounded-full bg-green-600 hover:bg-green-700 text-white font-semibold"
+              >
+                Clear
+              </button>
+            </div>
