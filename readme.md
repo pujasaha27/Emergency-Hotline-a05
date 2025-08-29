@@ -1,12 +1,12 @@
 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
- 1. getElementById: Finds a single element based on its unique ID.
+getElementById: Finds a single element based on its unique ID.
 
- 2. getElementsByClassName: Retrieves all elements with a given class name, returning an HTMLCollection.
+getElementsByClassName: Retrieves all elements with a given class name, returning an HTMLCollection.
 
- 3. querySelector: Returns the first element that matches a given CSS selector.
+querySelector: Returns the first element that matches a given CSS selector.
 
- 4. querySelectorAll: Returns all elements matching the selector, as a NodeList.
+querySelectorAll: Returns all elements matching the selector, as a NodeList.
 
 
 2. How do you create and insert a new element into the DOM?
@@ -24,9 +24,9 @@ Example: Clicking a button inside a <div> first fires the button’s event, then
 Event delegation is a technique where a parent element listens for events on its child elements by using event bubbling.
 It’s useful for:
 
- 1. Handling events on dynamically created elements.
+Handling events on dynamically created elements.
 
- 2. Reducing memory usage by avoiding multiple event listeners.
+Reducing memory usage by avoiding multiple event listeners.
 
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
